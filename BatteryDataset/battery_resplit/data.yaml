@@ -1,0 +1,14 @@
+path: /kaggle/input/BatteryImages/battery_resplit
+train: train/images
+val: valid/images
+test: test/images
+
+nc: 1
+names: ['Battery']
+
+roboflow:
+  workspace: chirag-kathuria
+  project: e-waste-dataset-r0ojc-infyq
+  version: dataset
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/chirag-kathuria/e-waste-dataset-r0ojc-infyq/dataset/dataset

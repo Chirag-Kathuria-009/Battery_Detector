@@ -1,0 +1,34 @@
+# Python
+__pycache__/
+*.pyc
+.pytest_cache/
+.venv/
+venv/
+*.egg-info/
+
+# ultralytics / training run outputs
+runs/
+
+# ── Dataset images & YOLO labels (large / regenerable — not source) ──
+# Images anywhere in the dataset tree (train/valid/test splits, PersonalImages,
+# YOLO_Output). Scoped to data folders so future docs/demo screenshots are safe.
+BatteryDataset/**/*.jpg
+BatteryDataset/**/*.jpeg
+BatteryDataset/**/*.png
+BatteryDataset/**/*.bmp
+BatteryDataset/**/*.webp
+# YOLO label files live in labels/ folders alongside each split
+BatteryDataset/**/labels/
+
+# Dataset archives & trained model weights (large binaries — keep out of git)
+BatteryDataset/**/*.zip
+*.pt
+
+# OS / editor
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# Annotated domain-gap outputs (regenerable from best.pt + personal images)
+results/domain_gap/annotated/

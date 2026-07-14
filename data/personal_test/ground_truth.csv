@@ -1,0 +1,21 @@
+Name,isBattery,Description
+Image1,FALSE,Laptop charger 
+Image2,FALSE,Earbuds and smartwatch
+Image3,TRUE,Powerbank with AA cell
+Image4,TRUE,AA cell with other object
+Image5,TRUE,AA cell inside mouse
+Image6,FALSE,Scientific calculator in rectangular shape
+Image7,TRUE,Powerbank near window
+Image8,TRUE,Powerbank near window
+Image9,TRUE,Powerbank with diffrent orientation
+Image10,TRUE,Powerbank
+Image11,TRUE,Drone Battery
+Image12,TRUE,Drone Battery
+Image13,TRUE,Drone Battery
+Image14,TRUE,Drone Battery
+Image15,TRUE,Drone Battery
+Image16,FALSE,Drone controller
+Image17,FALSE,Drone controller
+Image18,FALSE,Drone controller
+Image19,FALSE,Drone controller
+Image20,TRUE,AA cell partially under keyboard

@@ -1,0 +1,33 @@
+# Keep the build context tiny: only app/, models/best.pt and requirements.txt
+# are needed to serve. Everything below is excluded.
+
+# Large data / dataset artifacts
+BatteryDataset/
+Kaggle/
+results/
+data/
+*.zip
+
+# Notebooks, plans, docs
+*.ipynb
+*.md
+cv_project_final_plan.md
+CLAUDE.md
+confusion_matrix_normalized.png
+
+# Standalone scripts (not needed by the service)
+scripts/
+prechecks.py.py
+regrouping.py
+
+# Tests
+tests/
+
+# Python / tooling cruft
+__pycache__/
+*.pyc
+.pytest_cache/
+.git/
+.gitignore
+.venv/
+venv/

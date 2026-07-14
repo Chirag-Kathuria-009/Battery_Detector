@@ -1,0 +1,21 @@
+Name,isBattery,detected,n_boxes,max_conf,outcome,localization_note
+Image1,FALSE,FALSE,0,0.00,TN,correctly silent on laptop charger
+Image2,FALSE,TRUE,2,0.27,FP,boxed smartwatch (0.27) and earbuds case (0.26)
+Image3,TRUE,TRUE,2,0.88,TP,good - powerbank 0.88 + AA cells 0.56 both correct
+Image4,TRUE,TRUE,4,0.65,TP,AA cells 0.65 correct; 3 junk boxes on calculator/paper/watch
+Image5,TRUE,TRUE,1,0.29,TP,poor localization - single box covers whole frame
+Image6,FALSE,TRUE,1,0.83,FP,high-confidence false alarm on scientific calculator
+Image7,TRUE,FALSE,0,0.00,FN,missed - backlit powerbank on windowsill
+Image8,TRUE,TRUE,1,0.58,TP,mislocated - boxed window frame; powerbank missed
+Image9,TRUE,TRUE,1,0.72,TP,good - powerbank (upright orientation)
+Image10,TRUE,FALSE,0,0.00,FN,missed - powerbank lying on booklet
+Image11,TRUE,TRUE,1,0.27,TP,only the partial corner battery; main DJI hub missed
+Image12,TRUE,TRUE,2,0.64,TP,drone battery 0.64 correct + 1 junk background box
+Image13,TRUE,TRUE,1,0.45,TP,mislocated - boxed the controller; drone battery missed
+Image14,TRUE,TRUE,2,0.52,TP,ok - two loose overlapping boxes on drone battery
+Image15,TRUE,TRUE,3,0.64,TP,drone battery 0.57 correct + logo/desk junk boxes
+Image16,FALSE,TRUE,3,0.82,FP,controller 0.32/0.38 + sunglasses case 0.82
+Image17,FALSE,TRUE,3,0.77,FP,controller 0.50/0.50 + sunglasses case 0.77
+Image18,FALSE,TRUE,2,0.79,FP,controller 0.79 + sunglasses case 0.64
+Image19,FALSE,TRUE,3,0.50,FP,controller 0.45/0.50 + red speaker 0.37
+Image20,TRUE,TRUE,3,0.36,TP,AA cell 0.36 correct + 2 junk boxes on keyboard

@@ -1,0 +1,14 @@
+# --- API / serving ---
+fastapi==0.115.6
+uvicorn[standard]==0.34.0
+python-multipart==0.0.20      # required by FastAPI for multipart/form-data uploads
+pillow==11.1.0                # image decode for uploaded bytes
+
+# --- model / inference ---
+ultralytics==8.3.55           # YOLOv8 detection (loads best.pt)
+torch==2.7.1                  # CPU wheels; Dockerfile pins the CPU index URL
+torchvision==0.22.1
+
+# --- tests ---
+pytest==8.3.4
+httpx==0.28.1                 # required by fastapi.testclient.TestClient
